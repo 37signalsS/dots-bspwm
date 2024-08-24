@@ -25,7 +25,10 @@ exec bspwm
 
 ## СОФТ КОТОРЫЙ Я СТАВИЛ
 ```
-sudo pacman -S firefox telegram-desktop obsidian thunar timeshift lxappearance nitrogen libreoffice flameshot mpv pavucontrol pulseaudio code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose 
+sudo pacman -S firefox telegram-desktop obsidian thunar timeshift lxappearance nitrogen
+libreoffice flameshot mpv pavucontrol pulseaudio code obs-studio gthumb kitty htop zoxide
+fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools
+gvfs jq unzip fastfetch cmus docker docker-compose 
 
 yay cava vesktop
 ```
