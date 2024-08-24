@@ -2,7 +2,7 @@
 ![2024-08-24_13-46](https://github.com/user-attachments/assets/034a2f88-b6ad-41fa-903f-c848d341f854)
 ![2024-08-24_14-01](https://github.com/user-attachments/assets/310e3350-950a-47ca-bae3-3ccdf09916aa)
 ## HI!
-Я делал данный rice на EndeavourOS без каких либо соседствующих DE, все настройки идут от `~/.config/bspwm/bspwmrc` В первую очередь необходимо открыть этот файл и закоментировать/раскоментировать то что тебе нужно.  
+Я делал данный rice на EndeavourOS без каких-либо соседствующих DE, все настройки идут от `~/.config/bspwm/bspwmrc` В первую очередь, необходимо открыть этот файл и закомментировать/раскомментировать то, что тебе нужно.  
   
 Конфиги bspwm sxhkd kitty dunst picom polybar rofi берутся из `~/.config/  
 
@@ -21,7 +21,7 @@ exec sxhkd &
 exec bspwm 
 ```
   
-Установить темы и обои при помощи lxappearance и nitrogen. Заменить софт в ~/.config/sxhkd/sxhkdrc на нужный тебе. Перезагрузится.  
+Установить темы и обои при помощи lxappearance и nitrogen. Заменить софт в ~/.config/sxhkd/sxhkdrc на нужный тебе. Затем нужно перезагрузиться.  
 
 ## СОФТ КОТОРЫЙ Я СТАВИЛ
 ```
@@ -35,7 +35,6 @@ yay cava vesktop
   
 # ИНФОРМАЦИЯ О СИСТЕМЕ
 | DISTRO   | [EndeavourOS](https://endeavouros.com/)                        |
-| -------- | -------------------------------------------------------------- |
 | WM       | [BSPWM](https://github.com/baskerville/bspwm)                  |
 | BAR      | [Polybar](https://github.com/polybar/polybar)                  |
 | LAUNCHER | [rofi](https://github.com/davatorium/rofi)                     |
@@ -48,5 +47,5 @@ yay cava vesktop
   
 ## ССЫЛКИ
 
-My Telegram: @kuberctl
+My Telegram: https://t.me/kuberctl
 
