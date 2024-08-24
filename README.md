@@ -31,7 +31,7 @@ yay cava vesktop
 ```
   
 # ИНФОРМАЦИЯ О СИСТЕМЕ
-| DISTRO   | [ArchLinux](https://archlinux.org/)                            |
+| DISTRO   | [EndeavourOS](https://endeavouros.com/)                        |
 | -------- | -------------------------------------------------------------- |
 | WM       | [BSPWM](https://github.com/baskerville/bspwm)                  |
 | BAR      | [Polybar](https://github.com/polybar/polybar)                  |
