@@ -32,8 +32,6 @@ yay cava vesktop
   
 # ИНФОРМАЦИЯ О СИСТЕМЕ
 
-| DISTRO   | [EndeavourOS](https://endeavouros.com/)                        |     |
-| -------- | -------------------------------------------------------------- | --- |
 | WM       | [BSPWM](https://github.com/baskerville/bspwm)                  |     |
 | BAR      | [Polybar](https://github.com/polybar/polybar)                  |     |
 | LAUNCHER | [rofi](https://github.com/davatorium/rofi)                     |     |
