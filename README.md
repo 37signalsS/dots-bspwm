@@ -1,4 +1,4 @@
-## BSPWM CATPPUCCIN
+# BSPWM CATPPUCCIN
 ![2024-08-24_13-46](https://github.com/user-attachments/assets/034a2f88-b6ad-41fa-903f-c848d341f854)
 ![2024-08-24_14-01](https://github.com/user-attachments/assets/310e3350-950a-47ca-bae3-3ccdf09916aa)
 ## HI!
@@ -46,5 +46,5 @@ yay cava vesktop
 
 ## ССЫЛКИ
 
-[<img src="https://gitlab.com/prolinux410/owl_dots/-/raw/main/.img/git_tg.png?ref_type=heads" width="100">](@kuberctl)
+My Telegram: @kuberctl
 
