@@ -31,7 +31,7 @@ yay cava vesktop
 ```
   
 # ИНФОРМАЦИЯ О СИСТЕМЕ
-
+| -------- | -------------------------------------------------------------- | --- |
 | WM       | [BSPWM](https://github.com/baskerville/bspwm)                  |     |
 | BAR      | [Polybar](https://github.com/polybar/polybar)                  |     |
 | LAUNCHER | [rofi](https://github.com/davatorium/rofi)                     |     |
@@ -42,6 +42,7 @@ yay cava vesktop
 | CURSORS  | [Bibata Modern Ice](https://www.gnome-look.org/p/1197198)      |     |
 | FONT     | [Mononoki Nerd Font](https://www.nerdfonts.com/font-downloads) |     |
 
+  
 ## ССЫЛКИ
 
 My Telegram: @kuberctl
