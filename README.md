@@ -23,7 +23,7 @@ exec bspwm
   
 Установить темы и обои при помощи lxappearance и nitrogen. Заменить софт в ~/.config/sxhkd/sxhkdrc на нужный тебе. Затем нужно перезагрузиться.  
 
-## СОФТ КОТОРЫЙ Я СТАВИЛ
+## СОФТ, КОТОРЫЙ Я СТАВИЛ
 ```
 sudo pacman -S firefox telegram-desktop obsidian thunar timeshift lxappearance nitrogen
 libreoffice flameshot mpv pavucontrol pulseaudio code obs-studio gthumb kitty htop zoxide
@@ -34,16 +34,16 @@ yay cava vesktop
 ```
   
 # ИНФОРМАЦИЯ О СИСТЕМЕ
- DISTRO    [EndeavourOS](https://endeavouros.com/)                        
- WM        [BSPWM](https://github.com/baskerville/bspwm)                  
- BAR       [Polybar](https://github.com/polybar/polybar)                  
- LAUNCHER  [rofi](https://github.com/davatorium/rofi)                     
- TERMINAL  [Kitty](https://github.com/kovidgoyal/kitty)                   
- SHELL     [Fish](https://fishshell.com/)                                 
- ICON      [WhiteSur icon theme](https://www.gnome-look.org/p/1405756)    
- GTK3      [Catppuccine GTK Theme](https://www.gnome-look.org/p/1715554)  
- CURSORS   [Bibata Modern Ice](https://www.gnome-look.org/p/1197198)      
- FONT      [Mononoki Nerd Font](https://www.nerdfonts.com/font-downloads) 
+| DISTRO   | [EndeavourOS](https://endeavouros.com/)                        |
+| WM       | [BSPWM](https://github.com/baskerville/bspwm)                  |
+| BAR      | [Polybar](https://github.com/polybar/polybar)                  |
+| LAUNCHER | [rofi](https://github.com/davatorium/rofi)                     |
+| TERMINAL | [Kitty](https://github.com/kovidgoyal/kitty)                   |
+| SHELL    | [Fish](https://fishshell.com/)                                 |
+| ICON     | [WhiteSur icon theme](https://www.gnome-look.org/p/1405756)    |
+| GTK3     | [Catppuccine GTK Theme](https://www.gnome-look.org/p/1715554)  |
+| CURSORS  | [Bibata Modern Ice](https://www.gnome-look.org/p/1197198)      |
+| FONT     | [Mononoki Nerd Font](https://www.nerdfonts.com/font-downloads) |
   
 ## ССЫЛКИ
 
