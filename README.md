@@ -1,6 +1,7 @@
 # BSPWM CATPPUCCIN
-![2024-08-24_13-46](https://github.com/user-attachments/assets/034a2f88-b6ad-41fa-903f-c848d341f854)
-![2024-08-24_14-01](https://github.com/user-attachments/assets/310e3350-950a-47ca-bae3-3ccdf09916aa)
+![2024-08-29_12-29](https://github.com/user-attachments/assets/9f003cc9-96a4-4447-8abc-fce88d575898)
+![2024-08-29_12-19](https://github.com/user-attachments/assets/e1604477-627e-4f69-b819-c10d5e8f0c45)
+
 ## HI!
 Я делал данный rice на EndeavourOS без каких-либо соседствующих DE, все настройки идут от `~/.config/bspwm/bspwmrc` В первую очередь, необходимо открыть этот файл и закомментировать/раскомментировать то, что тебе нужно.  
   
