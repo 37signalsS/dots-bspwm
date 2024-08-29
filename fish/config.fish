@@ -1,8 +1,6 @@
 if status is-interactive
 
-alias x='cd /home/q/.config/'
-
-alias mi='micro $(fzf -m --preview="micro {}")'
+alias mi='fzf --preview="cat {}" | xargs -r code'
 
 zoxide init fish | source
 

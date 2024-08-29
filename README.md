@@ -21,16 +21,35 @@ exec sxhkd &
 exec bspwm 
 ```
   
-Установить темы и обои при помощи lxappearance и nitrogen. Заменить софт в ~/.config/sxhkd/sxhkdrc на нужный тебе. Затем нужно перезагрузиться.  
+Установить темы и обои при помощи lxappearance и nitrogen. Заменить софт в ~/.config/sxhkd/sxhkdrc на нужный тебе, иначе ничего будет больно. Затем нужно перезагрузиться.  
+
+Изменение темы курсора: необходимо отредактировать /usr/share/icons/default/index.theme заменив текущий курсор на свой.
+
 
 ## СОФТ, КОТОРЫЙ Я СТАВИЛ
 ```
-sudo pacman -S firefox telegram-desktop obsidian thunar timeshift lxappearance nitrogen
+sudo pacman -S vivaldi telegram-desktop obsidian thunar timeshift lxappearance nitrogen
 libreoffice flameshot mpv pavucontrol pulseaudio code obs-studio gthumb kitty htop zoxide
 fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools
-gvfs jq unzip fastfetch cmus docker docker-compose 
+gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome tabby
 
-yay cava vesktop
+yay cava vesktop errands termius
+
+git clone https://github.com/Raymo111/i3lock-color.git
+cd i3lock-color
+./install-i3lock-color.sh
+
+wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q | sudo bash -s system
+
+https://app.warp.dev/get_warp
+Скачанный файл переместить в cd /var/cache/pacman/pkg
+pacman -Su
+
+mkdir -p ~/.config/clipcat
+clipcatd default-config > ~/.config/clipcat/clipcatd.toml
+clipcatctl default-config > ~/.config/clipcat/clipcatctl.toml
+clipcat-menu default-config > ~/.config/clipcat/clipcat-menu.toml
+
 ```
   
 # ИНФОРМАЦИЯ О СИСТЕМЕ
@@ -39,7 +58,7 @@ yay cava vesktop
 | WM       | [BSPWM](https://github.com/baskerville/bspwm)                  |
 | BAR      | [Polybar](https://github.com/polybar/polybar)                  |
 | LAUNCHER | [rofi](https://github.com/davatorium/rofi)                     |
-| TERMINAL | [Kitty](https://github.com/kovidgoyal/kitty)                   |
+| TERMINAL | [Tabby](https://tabby.sh/)                   |
 | SHELL    | [Fish](https://fishshell.com/)                                 |
 | ICON     | [WhiteSur icon theme](https://www.gnome-look.org/p/1405756)    |
 | GTK3     | [Catppuccine GTK Theme](https://www.gnome-look.org/p/1715554)  |

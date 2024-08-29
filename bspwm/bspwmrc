@@ -1,13 +1,8 @@
 #! /bin/sh
 
-bspc rule -a Pavucontrol desktop='^7'
 bspc rule -a TelegramDesktop desktop='^2'
 
 pgrep -x sxhkd > /dev/null || sxhkd -f &
-
-if ! pgrep -x "nitrogen" > /dev/null; then
-    nitrogen --restore &
-fi
 
 $HOME/.config/polybar/scripts/launch.sh &
 
@@ -21,8 +16,8 @@ if ! pgrep -x "setxkbmap" > /dev/null; then
     setxkbmap -model pc105 -layout us,ru -option grp:caps_toggle
 fi
 
-if ! pgrep -x "firefox" > /dev/null; then
-    firefox &
+if ! pgrep -x "vivaldi" > /dev/null; then
+    vivaldi &
 fi
 
 if ! pgrep -x "dunst" > /dev/null; then
@@ -33,7 +28,13 @@ if ! pgrep -x "telegram-desktop" > /dev/null; then
     telegram-desktop &
 fi
 
-clipcatd &
+if ! pgrep -x "clipcatd" > /dev/null; then 
+    clipcatd &
+fi
+
+if ! pgrep -x "conky" > /dev/null; then
+	conky -c .config/conky/conky.conf &
+fi	
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
