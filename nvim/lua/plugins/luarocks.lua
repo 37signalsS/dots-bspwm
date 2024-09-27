@@ -1,0 +1,1 @@
+require("luarocks-nvim").setup()
