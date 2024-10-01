@@ -34,7 +34,7 @@ libreoffice flameshot mpv pavucontrol pulseaudio code obs-studio gthumb kitty ht
 fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools
 gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck
 
-yay cava vesktop errands termius zen-browser-bin parabolic
+yay cava vesktop errands termius zen-browser-bin parabolic libinput-gestures gestures
 
 git clone https://github.com/Raymo111/i3lock-color.git
 cd i3lock-color
