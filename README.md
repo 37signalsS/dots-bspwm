@@ -32,7 +32,7 @@ exec bspwm
 sudo pacman -S telegram-desktop obsidian thunar timeshift lxappearance nitrogen
 libreoffice flameshot mpv pavucontrol pulseaudio code obs-studio gthumb kitty htop zoxide
 fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools
-gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome 
+gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck
 
 yay cava vesktop errands termius zen-browser-bin parabolic
 

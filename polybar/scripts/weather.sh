@@ -14,26 +14,26 @@ DESCRIPTION=$(echo "${RESPONSE}" | jq -r '.weather[0].description')
 
 case ${DESCRIPTION} in
 	"mist"|"Mist"|"Smoke"|"smoke"|"haze")
-        ICON=""
+        ICON=" "
         ;;
     "clear sky"|"Clear")
-        ICON=""
+        ICON=" "
         ;;
     "few clouds"|"scattered clouds"|"broken clouds"|"Clouds"|"overcast clouds")
-        ICON=""
+        ICON=" "
         ;;
     "shower rain"|"rain"|"light rain"|"moderate rain"|"heavy intensity rain"|"very heavy rain"|"extreme rain"|"light intensity shower rain")
-        ICON=""
+        ICON=" " 
         ;;
     "thunderstorm"|"Thunderstorm")
-        ICON=""
+        ICON=" "
         ;;
     "snow"|"light snow"|"Heavy snow")
-        ICON=""
+        ICON=" "
         ;;
     *)
         ICON="?"
         ;;
 esac
 
-echo "${ICON} ${TEMPERATURE}°" 
+echo "${ICON}${TEMPERATURE}°" 

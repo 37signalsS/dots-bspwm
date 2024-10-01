@@ -16,8 +16,8 @@ if ! pgrep -x "setxkbmap" > /dev/null; then
     setxkbmap -model pc105 -layout us,ru -option grp:caps_toggle
 fi
 
-if ! pgrep -x "vivaldi" > /dev/null; then
-    vivaldi &
+if ! pgrep -x "zen-bin" > /dev/null; then
+    zen-browser &
 fi
 
 if ! pgrep -x "dunst" > /dev/null; then
@@ -32,18 +32,16 @@ if ! pgrep -x "clipcatd" > /dev/null; then
     clipcatd &
 fi
 
-if ! pgrep -x "conky" > /dev/null; then
-	conky -c .config/conky/conky.conf &
-fi	
-
+libinput-gestures-setup start &
+	
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-/usr/bin/nitrogen --set-zoom-fill --random /home/q/Wallpaper/ &
+/usr/bin/nitrogen --restore &
 
 bspc monitor -d 1 2 3 4 5 6 7 
 
-bspc config window_gap 12
-bspc config border_width 3
+bspc config window_gap 7
+bspc config border_width 2
 
 bspc config split_ratio 0.5
 

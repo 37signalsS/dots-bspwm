@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sudo systemctl start bluetooth
+
+sleep 3
+
 # Убедимся, что bluetoothctl работает в интерактивном режиме
 {
     # Включаем Bluetooth (если он выключен)

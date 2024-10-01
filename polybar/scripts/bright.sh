@@ -25,6 +25,6 @@ else
 fi
 
 # Установка нового значения яркости
-xrandr --output HDMI-A-0 --brightness "$NEW_BRIGHTNESS"
+xrandr --output eDP --brightness "$NEW_BRIGHTNESS"
 
 

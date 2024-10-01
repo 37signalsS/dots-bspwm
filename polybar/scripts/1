@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Проверяем, активен ли Bluetooth-сервис
+if ! systemctl is-active --quiet bluetooth; then
+    echo " -"
+    exit 0
+fi
+
+# Получаем список подключенных устройств
+connected_devices=$(bluetoothctl devices | grep "Connected: yes")
+
+if [ -z "$connected_devices" ]; then
+    echo " -"
+    exit 0
+fi
+
+# Получаем информацию о каждом подключенном устройстве
+while read -r device; do
+    # Извлекаем адрес устройства
+    device_address=$(echo "$device" | awk '{print $2}')
+    
+    # Получаем информацию о батарее для устройства
+    battery_info=$(bluetoothctl info "$device_address" | grep "Battery Percentage")
+
+    # Извлекаем процент заряда из строки
+    battery_percentage=$(echo "$battery_info" | grep -oP '\d+(?=%)')
+
+    # Проверяем, есть ли информация о заряде
+    if [ -n "$battery_percentage" ]; then
+        echo " ${bat:
+

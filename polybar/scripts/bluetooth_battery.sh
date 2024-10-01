@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Проверяем, активен ли Bluetooth-сервис
+if ! systemctl is-active --quiet bluetooth; then
+    echo "󰂯 -"
+    exit 0
+fi
+
 # Получаем информацию о Bluetooth-устройствах
 output=$(bluetoothctl info | grep "Battery Percentage")
 
