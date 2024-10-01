@@ -29,12 +29,12 @@ exec bspwm
 
 ## СОФТ, КОТОРЫЙ Я СТАВИЛ
 ```
-sudo pacman -S vivaldi telegram-desktop obsidian thunar timeshift lxappearance nitrogen
+sudo pacman -S telegram-desktop obsidian thunar timeshift lxappearance nitrogen
 libreoffice flameshot mpv pavucontrol pulseaudio code obs-studio gthumb kitty htop zoxide
 fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools
-gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome tabby
+gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome 
 
-yay cava vesktop errands termius
+yay cava vesktop errands termius zen-browser-bin parabolic
 
 git clone https://github.com/Raymo111/i3lock-color.git
 cd i3lock-color
@@ -59,7 +59,7 @@ clipcat-menu default-config > ~/.config/clipcat/clipcat-menu.toml
 | WM       | [BSPWM](https://github.com/baskerville/bspwm)                  |
 | BAR      | [Polybar](https://github.com/polybar/polybar)                  |
 | LAUNCHER | [rofi](https://github.com/davatorium/rofi)                     |
-| TERMINAL | [Tabby](https://tabby.sh/)                   |
+| TERMINAL | [kitty](https://github.com/kovidgoyal/kitty)                   |
 | SHELL    | [Fish](https://fishshell.com/)                                 |
 | ICON     | [WhiteSur icon theme](https://www.gnome-look.org/p/1405756)    |
 | GTK3     | [Catppuccine GTK Theme](https://www.gnome-look.org/p/1715554)  |
