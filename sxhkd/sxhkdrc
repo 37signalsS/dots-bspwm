@@ -21,6 +21,41 @@ super + c
 super + t
     thunar
 
+#screenshot
+super + s
+	flameshot gui 
+
+F5
+	xrandr --output eDP --brightness 0.5
+
+F6
+	xrandr --output eDP --brightness 1
+
+F3
+	pactl set-sink-volume @DEFAULT_SINK@ +5%
+	
+F2
+	pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+F1
+	pactl set-sink-volume @DEFAULT_SINK@ 0%
+
+F8
+	$HOME/.config/polybar/scripts/togglehide -h
+
+F7
+	$HOME/.config/polybar/scripts/togglehide -s
+
+F10
+	sudo systemctl start bluetooth && sleep 3 && $HOME/.config/polybar/scripts/bluetooth_start.sh
+
+F11
+    sudo systemctl stop bluetooth && sleep 3 && $HOME/.config/polybar/scripts/bluetooth_stop.sh
+
+F9
+	betterlockscreen -l
+
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -54,7 +89,7 @@ super + g
 #
 
 # set the window state
-super + {t,shift + t,s,f}
+super + {t,shift + t,n,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # set the node flags
