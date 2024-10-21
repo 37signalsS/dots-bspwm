@@ -29,19 +29,26 @@ exec bspwm
 
 ## СОФТ, КОТОРЫЙ Я СТАВИЛ
 ```
-sudo pacman -S telegram-desktop obsidian thunar timeshift lxappearance nitrogen
-libreoffice flameshot mpv pavucontrol pulseaudio code obs-studio gthumb kitty htop zoxide
-fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools
-gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51
+sudo pacman -S telegram-desktop thunar timeshift lxappearance nitrogen libreoffice flameshot mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51
 
-yay cava vesktop errands termius zen-browser-bin parabolic libinput-gestures gestures
+```
+```
+yay -S vesktop errands termius zen-browser-bin parabolic 
 
+```
+### СОФТ, ДЛЯ НОУТБУКА
+```
+yay -S libinput-gestures gestures
+```
+### Lockscreen
+```
 git clone https://github.com/Raymo111/i3lock-color.git
 cd i3lock-color
 ./install-i3lock-color.sh
 
 wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q | sudo bash -s system
-
+```
+```
 https://app.warp.dev/get_warp
 Скачанный файл переместить в cd /var/cache/pacman/pkg
 pacman -Su
