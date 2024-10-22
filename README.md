@@ -30,11 +30,9 @@ exec bspwm
 ## СОФТ, КОТОРЫЙ Я СТАВИЛ
 ```
 sudo pacman -S telegram-desktop thunar timeshift lxappearance nitrogen libreoffice flameshot mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51
-
 ```
 ```
 yay -S vesktop errands termius zen-browser-bin parabolic 
-
 ```
 ### СОФТ, ДЛЯ НОУТБУКА
 ```
@@ -51,15 +49,50 @@ wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/in
 ```
 https://app.warp.dev/get_warp
 Скачанный файл переместить в cd /var/cache/pacman/pkg
-pacman -Su
-
+pacman -Su   
+```
+### Clipboard manager
+```
 mkdir -p ~/.config/clipcat
 clipcatd default-config > ~/.config/clipcat/clipcatd.toml
 clipcatctl default-config > ~/.config/clipcat/clipcatctl.toml
 clipcat-menu default-config > ~/.config/clipcat/clipcat-menu.toml
-
 ```
-  
+## Энегопотребление для ноутбука
+```
+sudo pacman -S tlp tlp-rdw powertop
+```
+```
+sudo systemctl enable --now tlp.service
+```
+```
+sudo systemctl mask systemd-rfkill.service && sudo systemctl mask systemd-rfkill.socket
+```
+```
+sudo systemctl restart tlp.service
+```
+Изменить дефолтный конфиг
+```
+micro /etc/systemd/system/powertop.service
+```
+```
+[Unit]
+Description=Powertop tunings
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/powertop --auto-tune
+
+[Install]
+WantedBy=multi-user.target
+```
+```
+sudo systemctl restart tlp.service
+```
+```
+sudo systemctl enable --now powertop.service
+```
 # ИНФОРМАЦИЯ О СИСТЕМЕ
 | DISTRO   | [EndeavourOS](https://endeavouros.com/)                        |
 | -------- | -------------------------------------------------------------- |
