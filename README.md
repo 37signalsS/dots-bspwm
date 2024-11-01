@@ -63,13 +63,7 @@ clipcat-menu default-config > ~/.config/clipcat/clipcat-menu.toml
 sudo pacman -S tlp tlp-rdw powertop
 ```
 ```
-sudo systemctl enable --now tlp.service
-```
-```
 sudo systemctl mask systemd-rfkill.service && sudo systemctl mask systemd-rfkill.socket
-```
-```
-sudo systemctl restart tlp.service
 ```
 Изменить дефолтный конфиг tlp
 ```
@@ -88,7 +82,7 @@ ExecStart=/usr/bin/powertop --auto-tune
 WantedBy=multi-user.target
 ```
 ```
-sudo systemctl restart tlp.service
+sudo systemctl enable --now tlp.service
 ```
 ```
 sudo systemctl enable --now powertop.service
