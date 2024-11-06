@@ -65,7 +65,7 @@ sudo pacman -S tlp tlp-rdw powertop
 ```
 sudo systemctl mask systemd-rfkill.service && sudo systemctl mask systemd-rfkill.socket
 ```
-Изменить дефолтный конфиг tlp
+Изменить дефолтный конфиг tlp в /etc/tlp.conf
 ```
 micro /etc/systemd/system/powertop.service
 ```
