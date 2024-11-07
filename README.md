@@ -29,7 +29,7 @@ exec bspwm
 
 ## СОФТ, КОТОРЫЙ Я СТАВИЛ
 ```
-sudo pacman -S telegram-desktop thunar timeshift lxappearance nitrogen libreoffice flameshot mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51
+sudo pacman -S telegram-desktop thunar timeshift lxappearance nitrogen libreoffice tailscale flameshot mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51
 ```
 ```
 yay -S vesktop errands termius zen-browser-bin parabolic 
