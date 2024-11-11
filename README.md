@@ -27,14 +27,14 @@ exec bspwm
 Изменение темы курсора: необходимо отредактировать /usr/share/icons/default/index.theme заменив текущий курсор на свой.
 
 
-## СОФТ, КОТОРЫЙ Я СТАВИЛ
+## Software 
 ```
-sudo pacman -S telegram-desktop thunar timeshift lxappearance nitrogen libreoffice tailscale flameshot mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51
+sudo pacman -S telegram-desktop thunar timeshift lxappearance nitrogen libreoffice tailscale flameshot yazi mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51 luarocks
 ```
 ```
 yay -S vesktop errands termius zen-browser-bin parabolic 
 ```
-### СОФТ, ДЛЯ НОУТБУКА
+### Software by laptop
 ```
 yay -S libinput-gestures gestures
 ```
@@ -58,9 +58,20 @@ clipcatd default-config > ~/.config/clipcat/clipcatd.toml
 clipcatctl default-config > ~/.config/clipcat/clipcatctl.toml
 clipcat-menu default-config > ~/.config/clipcat/clipcat-menu.toml
 ```
-## Энегопотребление для ноутбука
+### Install image.nvim
 ```
-sudo pacman -S tlp tlp-rdw powertop
+luarocks --local --lua-version=5.1 install magick
+```
+### TERMINAL
+```
+curl -sS https://starship.rs/install.sh | sh 
+```
+```
+chsh -s /usr/bin/fish
+```
+## Powersave battery laptop
+```
+sudo pacman -S tlp tlp-rdw powertop tp_smapi acpi_call
 ```
 ```
 sudo systemctl mask systemd-rfkill.service && sudo systemctl mask systemd-rfkill.socket
