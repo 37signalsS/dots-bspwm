@@ -62,7 +62,7 @@ clipcat-menu default-config > ~/.config/clipcat/clipcat-menu.toml
 ```
 luarocks --local --lua-version=5.1 install magick
 ```
-### TERMINAL
+### Terminal
 ```
 curl -sS https://starship.rs/install.sh | sh 
 ```

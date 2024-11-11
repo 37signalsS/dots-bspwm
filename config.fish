@@ -4,9 +4,13 @@ set -g fish_greeting
 
 alias n='nvim'
 
-alias bton='sudo systemctl start bluetooth && sleep 3 && $HOME/.config/polybar/scripts/bluetooth_start.sh'
+alias nv='sudo -Es nvim'
 
-alias btoff='$HOME/.config/polybar/scripts/bluetooth_start.sh && sleep 3 && sudo systemctl stop bluetooth'
+alias add='git add .'
+
+alias commit='git commit -m'
+
+alias push='git push'
 
 alias vpnon='sudo systemctl start tailscaled && sleep 3 && sudo tailscale up'
 
