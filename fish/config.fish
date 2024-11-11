@@ -8,8 +8,6 @@ alias nv='sudo -Es nvim'
 
 alias add='git add .'
 
-alias commit='git commit -m'
-
 alias push='git push'
 
 alias vpnon='sudo systemctl start tailscaled && sleep 3 && sudo tailscale up'
