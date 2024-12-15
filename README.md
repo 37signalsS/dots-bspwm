@@ -29,7 +29,7 @@ exec bspwm
 
 ## Software 
 ```
-sudo pacman -S telegram-desktop thunar timeshift lxappearance nitrogen libreoffice tailscale flameshot yazi mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51 luarocks kolourpaint keepassxc libreoffice-still-ru virtualbox scrcpy android-tools
+sudo pacman -S telegram-desktop thunar timeshift lxappearance nitrogen libreoffice tailscale flameshot yazi mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51 luarocks kolourpaint keepassxc libreoffice-still-ru virtualbox scrcpy android-tools eza git-delta atuin lazygit
 ```
 ```
 yay -S vesktop errands termius zen-browser-bin parabolic safeeyes youtube-music-bin yandex-browser
