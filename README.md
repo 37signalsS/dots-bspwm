@@ -101,6 +101,22 @@ sudo systemctl enable --now tlp.service
 ```
 sudo systemctl enable --now powertop.service
 ```
+### Git  
+Add to .gitconfig in home directory
+```
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    dark = true      # or light = true, or omit for auto-detection
+
+[merge]
+    conflictstyle = zdiff3
+```
 # ИНФОРМАЦИЯ О СИСТЕМЕ
 | DISTRO   | [EndeavourOS](https://endeavouros.com/)                        |
 | -------- | -------------------------------------------------------------- |

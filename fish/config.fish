@@ -6,9 +6,9 @@ alias n='nvim'
 
 alias nv='sudo -Es nvim'
 
-alias add='git add .'
+alias cd='z'
 
-alias push='git push'
+alias lg='lazygit'
 
 alias ssh='kitten ssh'
 
@@ -16,10 +16,14 @@ alias vpnon='sudo systemctl start tailscaled && sleep 3 && sudo tailscale up'
 
 alias vpnoff='sudo systemctl stop tailscaled && sleep 3 && sudo tailscale down' 
 
+alias ls='eza --tree --icons=always --long --git'
+
 zoxide init fish | source
 
 thefuck --alias | source
 
 starship init fish | source
+
+atuin init fish | source
 
 end
