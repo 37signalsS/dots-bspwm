@@ -10,8 +10,6 @@ alias cd='z'
 
 alias lg='lazygit'
 
-alias ssh='kitten ssh'
-
 alias vpnon='sudo systemctl start tailscaled && sleep 3 && sudo tailscale up'
 
 alias vpnoff='sudo systemctl stop tailscaled && sleep 3 && sudo tailscale down' 
@@ -29,3 +27,4 @@ starship init fish | source
 atuin init fish | source
 
 end
+webstorm-jre
