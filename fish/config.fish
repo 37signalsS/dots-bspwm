@@ -18,6 +18,8 @@ alias vpnoff='sudo systemctl stop tailscaled && sleep 3 && sudo tailscale down'
 
 alias ls='eza --tree --icons=always --long --git'
 
+alias l='ls'
+
 zoxide init fish | source
 
 thefuck --alias | source
