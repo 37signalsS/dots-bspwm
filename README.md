@@ -29,14 +29,17 @@ exec bspwm
 
 ## Software 
 ```
-sudo pacman -S telegram-desktop thunar timeshift lxappearance nitrogen libreoffice tailscale flameshot yazi mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51 luarocks kolourpaint keepassxc libreoffice-still-ru virtualbox scrcpy android-tools eza git-delta atuin lazygit blueman syncthing yt-dlp neovim shutter
+sudo pacman -S telegram-desktop thunar ghostty timeshift lxappearance nitrogen libreoffice tailscale flameshot yazi mpv pavucontrol code obs-studio gthumb kitty htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip fastfetch cmus docker docker-compose conky polkit-gnome thefuck imagemagick lua51 luarocks kolourpaint keepassxc libreoffice-still-ru virtualbox scrcpy android-tools eza git-delta atuin lazygit blueman syncthing yt-dlp neovim shutter
 ```
 ```
-yay -S vesktop errands termius zen-browser-bin safeeyes youtube-music-bin yandex-browser waveterm ytmdl webstorm-jre webstorm 
+yay -S discord-canary errands termius zen-browser-bin safeeyes youtube-music-bin yandex-browser waveterm ytmdl webstorm-jre webstorm 
 ```
 ### Software by laptop
 ```
 yay -S libinput-gestures gestures
+```
+``` 
+sudo pacman -S fprintd
 ```
 ### Lockscreen
 ```
@@ -72,7 +75,7 @@ curl -sS https://starship.rs/install.sh | sh
 ```
 chsh -s /usr/bin/fish
 ```
-## Powersave battery laptop
+## Powersave battery laptop(only Thinkpad)
 ```
 sudo pacman -S tlp tlp-rdw powertop tp_smapi acpi_call
 ```
@@ -100,6 +103,10 @@ sudo systemctl enable --now tlp.service
 ```
 ```
 sudo systemctl enable --now powertop.service
+```
+HP Elitebook
+``` 
+sudo pacman -S power-profiles-daemon
 ```
 ### Git  
 Add to .gitconfig in home directory
