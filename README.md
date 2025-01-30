@@ -38,6 +38,7 @@ yay -S discord-canary errands termius zen-browser-bin safeeyes youtube-music-bin
 ```
 yay -S libinput-gestures gestures
 ```
+DE
 ``` 
 sudo pacman -S fprintd
 ```
