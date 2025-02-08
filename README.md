@@ -29,7 +29,7 @@ exec bspwm
 
 ## Software 
 ```
-sudo pacman -S telegram-desktop nemo ghostty lxappearance nitrogen libreoffice tailscale flameshot yazi haruna pavucontrol obs-studio gthumb htop zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip p7zip fastfetch cmus docker docker-compose conky polkit-gnome thefuck kolourpaint keepassxc libreoffice-still-ru virtualbox scrcpy android-tools eza git-delta atuin lazygit blueman syncthing yt-dlp fragments
+sudo pacman -S telegram-desktop nemo ghostty lxappearance nitrogen libreoffice tailscale flameshot yazi haruna pavucontrol obs-studio gthumb zenith zoxide fzf micro fish picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip p7zip fastfetch cmus docker docker-compose conky polkit-gnome thefuck kolourpaint keepassxc libreoffice-still-ru virtualbox scrcpy android-tools eza git-delta atuin lazygit blueman syncthing yt-dlp fragments
 ```
 ```
 yay -S discord-canary vesktop zen-browser-bin onlyoffice-bin youtube-music-bin yandex-browser waveterm ytmdl webstorm-jre webstorm lens-bin
