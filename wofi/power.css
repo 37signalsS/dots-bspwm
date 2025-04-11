@@ -1,0 +1,57 @@
+@define-color bg #1e1e2e; 
+@define-color fg #cdd6f4; 
+@define-color y #7287fd; 
+
+/* параметры вообще для всего */
+*{
+    font-family: JetBrainsMono;
+    font-size: 14px;
+    border-radius: 5;
+}
+
+/* параметры для окна */
+window {
+    background-color: @bg;
+}
+
+/* параметры для окна ввода */
+#input {
+    margin: -15px 0px -10px 0px;
+    background-color: @bg;
+    color: @bg;
+}
+
+/* параметры для окна с приложениями */
+#inner-box {
+    visibility: hidden;
+}
+
+/* параметры пространства вокруг окна wofi */
+#outer-box {
+    margin: 10px 20px;
+    padding: 0px;
+    background-color: @bg;
+}
+
+
+/* параметры для текста */
+#text {
+    padding: 5px;
+    color: @fg;
+    margin: 0px 0px;
+}
+
+/* параметры для выделенного пункта */
+#entry:selected {
+    background: @y;
+    font-color: @bg;
+}
+
+/* параметры выделенного текста */
+#text:selected {
+    color: @bg;
+    padding: 5px;
+}
+
+
+
