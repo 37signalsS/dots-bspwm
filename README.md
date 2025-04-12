@@ -30,13 +30,14 @@ exec bspwm
 ```
 sudo pacman -S telegram-desktop nemo ghostty libreoffice tailscale flameshot yazi haruna pavucontrol obs-studio gthumb zenith zoxide fzf micro fish lxappearance nitrogen picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip p7zip fastfetch cmus docker docker-compose polkit-gnome thefuck kolourpaint keepassxc libreoffice-still-ru virtualbox scrcpy android-tools eza git-delta atuin lazygit blueman syncthing yt-dlp fragments kdeconnect network-manager-applet nm-connection-editor power-profiles-daemon
 ```
+```
+yay -S discord-canary vesktop zen-browser-bin onlyoffice-bin youtube-music-bin waveterm ytmdl lens-bin
+```
 ### Wayland(sway)
 ```
 sudo pacman -S swaybg swaylock swappy xorg-xwayland wl-clipboard cliphist autotiling nwg-look wlroots xdg-user-dirs slurp grim swaync waybar wofi xdg-desktop-porlal-wlr
 ```
-```
-yay -S discord-canary vesktop zen-browser-bin onlyoffice-bin youtube-music-bin waveterm ytmdl lens-bin
-```
+
 ### Software by laptop
 ```
 yay -S libinput-gestures gestures
@@ -55,7 +56,7 @@ wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/in
 ```
 ```
 https://app.warp.dev/get_warp
-sudo pacman -U ./<file>.pkg.tar.zst
+sudo pacman -U ./<имя_файла>.pkg.tar.zst
 ```
 ### Clipboard manager
 ```
