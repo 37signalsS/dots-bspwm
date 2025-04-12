@@ -55,8 +55,7 @@ wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/in
 ```
 ```
 https://app.warp.dev/get_warp
-Скачанный файл переместить в cd /var/cache/pacman/pkg
-pacman -Su
+sudo pacman -U ./<file>.pkg.tar.zst
 ```
 ### Clipboard manager
 ```
