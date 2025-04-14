@@ -1,4 +1,4 @@
-# BSPWM CATPPUCCIN
+# BSPWM CATPPUCCIN AND SWAY
 ![2024-10-01_15-49](https://github.com/user-attachments/assets/944449ff-0149-484e-9993-f16fa73d78db)
 ![2024-10-01_15-47](https://github.com/user-attachments/assets/3e7dd4d8-d98e-4d3c-99f3-5377cc864282)
 
