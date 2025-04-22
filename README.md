@@ -33,11 +33,6 @@ sudo pacman -S telegram-desktop nemo ghostty libreoffice tailscale flameshot yaz
 ```
 yay -S discord-canary vesktop zen-browser-bin onlyoffice-bin youtube-music-bin waveterm ytmdl lens-bin
 ```
-### Wayland(sway)
-```
-sudo pacman -S swaybg swaylock swappy xorg-xwayland wl-clipboard cliphist autotiling nwg-look wlroots xdg-user-dirs slurp grim swaync waybar wofi xdg-desktop-porlal-wlr
-```
-
 ### Software by laptop
 ```
 yay -S libinput-gestures gestures
@@ -57,6 +52,9 @@ wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/in
 ```
 https://app.warp.dev/get_warp
 sudo pacman -U ./<имя_файла>.pkg.tar.zst
+
+https://www.waveterm.dev/download
+sudo pacman -U <имя_файла>
 ```
 ### Clipboard manager
 ```
@@ -104,10 +102,6 @@ sudo systemctl enable --now tlp.service
 ```
 ```
 sudo systemctl enable --now powertop.service
-```
-HP Elitebook
-```
-sudo pacman -S power-profiles-daemon
 ```
 ### Git
 Add to .gitconfig in home directory
