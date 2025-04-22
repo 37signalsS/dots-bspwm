@@ -1,8 +1,0 @@
-no_actions=true
-hide_scroll=true
-
-columns=1
-image_size=20
-
-term=ghostty
-hide_search=true

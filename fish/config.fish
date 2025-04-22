@@ -12,11 +12,9 @@ alias lg='lazygit'
 
 alias vpnon='sudo systemctl start tailscaled && sleep 3 && sudo tailscale up'
 
-alias vpnoff='sudo systemctl stop tailscaled && sleep 3 && sudo tailscale down' 
+alias vpnoff='sudo systemctl stop tailscaled && sleep 3 && sudo tailscale down'
 
 alias ls='eza --tree --icons=always --long --git'
-
-alias s='sway -c /home/q/notebook/config'
 
 zoxide init fish | source
 
