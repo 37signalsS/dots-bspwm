@@ -1,0 +1,8 @@
+{
+  "autoupdate:channel": "latest",
+  "telemetry:enabled": false,
+  "term:fontfamily": "Mononoki Nerd Font Mono",
+  "term:fontsize": 15
+}
+
+

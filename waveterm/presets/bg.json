@@ -1,0 +1,9 @@
+{
+  "bg@duskhorizon": {
+    "display:name": "Dusk Horizon",
+    "bg:*": true,
+    "bg": "linear-gradient(0deg, rgba(128,0,0,1) 0%, rgba(204,85,0,0.7) 20%, rgba(255,140,0,0.6) 45%, rgba(160,90,160,0.5) 65%, rgba(60,60,120,1) 100%), radial-gradient(circle at 30% 30%, rgba(255,255,255,0.1), transparent 60%), radial-gradient(circle at 70% 70%, rgba(255,255,255,0.05), transparent 70%)",
+    "bg:opacity": 0.9,
+    "bg:blendmode": "overlay"
+  }
+}

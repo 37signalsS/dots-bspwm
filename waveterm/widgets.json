@@ -1,0 +1,38 @@
+{
+    "bash": {
+        "icon": "terminal",
+        "label": "bash",
+        "blockdef": {
+            "meta": {
+                "view": "term",
+                "controller": "shell",
+                "term:localshellpath": "/bin/bash",
+                "term:localshellopts": "-i -l"
+            }
+        }
+    },
+
+    "nnstd": {
+        "icon": "brands@gitlab",
+        "label": "nnstd",
+        "blockdef": {
+            "meta": {
+                "view": "web",
+                "url": "https://git.stone.nnstd.dev/nnstd/projects/magicfun"
+            }
+        }
+    },
+
+    "top": {
+        "icon": "brands@linux",
+        "label": "top",
+        "blockdef": {
+            "meta": {
+                "view": "term",
+                "controller": "cmd",
+                "cmd": "zenith"
+            }
+        }
+    }
+}
+
