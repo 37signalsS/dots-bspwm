@@ -50,7 +50,7 @@ sudo pacman -U ./<имя_файла>.pkg.tar.zst
 https://www.waveterm.dev/download
 sudo pacman -U <имя_файла>
 
-flatpak install flathub dev.k8slens.OpenLens
+flatpak install flathub app.freelens.Freelens
 ```
 ### Clipboard manager
 ```
