@@ -1,0 +1,54 @@
+{
+  "icon_theme": "Catppuccin Macchiato",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 18,
+  "buffer_font_size": 18,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Dark",
+    "dark": "One Dark",
+    "minimap": {
+      "show": "always"
+    },
+    "toolbar": {
+      "breadcrumbs": true,
+      "quick_actions": false,
+      "selections_menu": false
+    }
+  },
+  "ui_font_family": "BlexMono Nerd Font",
+  "buffer_font_family": "BlexMono Nerd Font",
+  "hide_mouse": "on_typing_and_movement",
+  "inlay_hints": {
+    "enabled": false
+  },
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "tab_bar": {
+    "show": true
+  },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true
+    },
+    "hunk_style": "staged_hollow"
+  },
+  "wrap_guides": [90],
+  "show_wrap_guides": true,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 100
+    }
+  },
+  "restore_on_startup": "last_session",
+  "git_status": true
+}
