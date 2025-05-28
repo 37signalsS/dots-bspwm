@@ -70,6 +70,57 @@ curl -sS https://starship.rs/install.sh | sh
 ```
 chsh -s /usr/bin/fish
 ```
+### Default application
+Создать пользовательский MIME-тип
+```
+mkdir -p ~/.local/share/mime/packages
+nano ~/.local/share/mime/packages/markdown.xml
+```
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="text/markdown">
+        <comment>Markdown Document</comment>
+        <glob pattern="*.md"/>
+        <glob pattern="*.markdown"/>
+    </mime-type>
+</mime-info>
+```
+```
+update-mime-database ~/.local/share/mime
+```
+```
+sudo micro /usr/share/applications/zed.desktop
+```
+```
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zed
+GenericName=Text Editor
+Comment=A high-performance, multiplayer code editor.
+TryExec=
+StartupNotify=true
+Exec=zeditor %F
+Icon=zed
+Categories=Utility;TextEditor;Development;IDE;
+Keywords=zed;
+MimeType=text/plain;inode/directory;
+```
+Обновить базу данных .desktop файлов для определенного mime типа
+```
+xdg-mime default zed.desktop text/plain
+```
+Проверить
+```
+xdg-mime query default text/plain
+```
+Сбросить кэш и обновить mime типы
+```
+rm -rf ~/.cache/mimeapps.list
+rm -rf ~/.local/share/mime
+update-mime-database ~/.local/share/mime
+```
 ### Skip Discord Update
 Add to .config/discord/settings.json
 ```

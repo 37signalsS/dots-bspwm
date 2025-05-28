@@ -16,7 +16,13 @@ alias vpnon='sudo systemctl start tailscaled && sleep 3 && sudo tailscale up'
 
 alias vpnoff='sudo systemctl stop tailscaled && sleep 3 && sudo tailscale down'
 
-alias ls='eza --tree --icons=always --long --git'
+alias l='eza --tree --icons=always --long --git'
+
+alias s='sway -c /home/q/notebook/config'
+
+alias d="cd (find . -type d | fzf --preview 'tree -C {}')"
+
+alias gitlog="git log --graph --topo-order --pretty=format:'%w(100,0,6)%C(yellow)%h%Creset%C(bold)%C(black)%d %C(cyan)%ar %C(green)%an%n%C(bold)%C(white)%s %N' --abbrev-commit"
 
 zoxide init fish | source
 
@@ -27,3 +33,8 @@ starship init fish | source
 atuin init fish | source
 
 end
+
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
+
+set PATH $PATH /home/q/.local/bin
