@@ -22,7 +22,7 @@ alias l='eza --tree --icons=always --long --git'
 
 alias s='sway -c /home/q/notebook/config'
 
-alias d="cd (find . -type d | fzf --preview 'tree -C {}')"
+alias d="sudo -v; cd (sudo find / -type d 2>/dev/null | fzf --preview 'tree -C {}' --preview-window=right:50%)"
 
 alias gitlog="git log --graph --topo-order --pretty=format:'%w(100,0,6)%C(yellow)%h%Creset%C(bold)%C(black)%d %C(cyan)%ar %C(green)%an%n%C(bold)%C(white)%s %N' --abbrev-commit"
 
