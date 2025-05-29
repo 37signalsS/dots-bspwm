@@ -70,7 +70,17 @@ curl -sS https://starship.rs/install.sh | sh
 ```
 chsh -s /usr/bin/fish
 ```
+### Rofi 
+Удалить определенные приложения из вывода(удалить .desktop файл)
+```
+~/local/share/applications
+/usr/share/applications
+```
 ### Default application
+Просмотреть существующие в системе MIME-типы
+```
+cat /etc/mime.types
+```
 Создать пользовательский MIME-тип
 ```
 mkdir -p ~/.local/share/mime/packages
