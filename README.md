@@ -1,4 +1,4 @@
-# BSPWM CATPPUCCIN. 
+# BSPWM CATPPUCCIN
 ![2024-10-01_15-49](https://github.com/user-attachments/assets/944449ff-0149-484e-9993-f16fa73d78db)
 
 ## УСТАНОВКА ЭТОГО КОНФИГА
