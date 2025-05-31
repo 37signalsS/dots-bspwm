@@ -25,7 +25,7 @@ exec bspwm
 sudo pacman -S telegram-desktop nemo ghostty libreoffice tailscale flameshot yazi haruna pavucontrol obs-studio gthumb zenith zoxide fzf micro fish lxappearance nitrogen picom bspwm polybar rofi sxhkd dunst xorg xorg-xinit clipcat wireguard-tools gvfs jq unzip p7zip fastfetch cmus docker docker-compose polkit-gnome thefuck kolourpaint keepassxc libreoffice-still-ru virtualbox scrcpy android-tools eza git-delta atuin lazygit blueman syncthing yt-dlp fragments kdeconnect network-manager-applet nm-connection-editor power-profiles-daemon dive translate-shell p7zip flatpak zed linux-zen linux-zen-headers 
 ```
 ```
-yay -S discord-canary vesktop zen-browser-bin onlyoffice-bin youtube-music-bin lens-bin lazydocker pomatez ttf-times-new-roman vscodium-bin ungoogled-chromium-bin
+yay -S discord-canary vesktop zen-browser-bin onlyoffice-bin youtube-music-bin lens-bin lazydocker pomatez ttf-times-new-roman vscodium-bin ungoogled-chromium-bin termius
 ```
 ### Software by laptop
 ```
@@ -99,27 +99,9 @@ nano ~/.local/share/mime/packages/markdown.xml
 ```
 update-mime-database ~/.local/share/mime
 ```
-```
-sudo micro /usr/share/applications/zed.desktop
-```
-```
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Zed
-GenericName=Text Editor
-Comment=A high-performance, multiplayer code editor.
-TryExec=
-StartupNotify=true
-Exec=zeditor %F
-Icon=zed
-Categories=Utility;TextEditor;Development;IDE;
-Keywords=zed;
-MimeType=text/plain;inode/directory;
-```
 Выбрать определенный .desktop файл/приложение для открытия файлов определенного MIMI-типа:
 ```
-xdg-mime default zed.desktop text/plain
+xdg-mime default dev.zed.Zed.desktop text/plain
 ```
 Проверить дефолтный выбор приложения для открытия файла:
 ```
