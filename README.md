@@ -63,6 +63,10 @@ clipcat-menu default-config > ~/.config/clipcat/clipcat-menu.toml
 ```
 export EDITOR=nvim
 ```
+### Vscode
+```
+restoreWindows => none
+```
 ### Terminal
 ```
 curl -sS https://starship.rs/install.sh | sh

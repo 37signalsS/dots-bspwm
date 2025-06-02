@@ -1,0 +1,42 @@
+[user]
+    name = 37signalsS
+    email = misha-eliseyev@mail.ru
+
+[core]
+    compression = 9  
+    pager = delta
+    
+[status]
+    branch = true
+    short = true
+    showStash = true
+    showUntrackedFiles = all  
+
+[interactive]
+    diffFilter = delta --color-only
+    
+[delta]
+    navigate = true  
+    dark = true      
+    
+[merge]
+    conflictstyle = zdiff3
+    
+[alias]
+    l = log --graph --topo-order --pretty=format:'%w(100,0,6)%C(yellow)%h%Creset%C(bold)%C(red)%d %C(cyan)%ar %C(green)%an%n%C(bold)%C(white)%s %N' --abbrev-commit
+    c = "!f() { echo 'Введите сообщение коммита:'; read message; git commit -m \"$message\"; }; f"
+    s = status
+
+[safe]
+    directory = /home/q/notes
+    directory = /home/q/Sway
+    directory = /home/q/Bspwm
+    directory = /home/q/landing
+
+[credential]
+    helper = cache --timeout=3600
+
+
+
+
+
