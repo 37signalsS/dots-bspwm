@@ -51,25 +51,6 @@
     mouse_middle_click = do_action, close_current
     mouse_right_click = close_all
 
-#[experimental]
-#    per_monitor_dpi = false
-
-#[urgency_low]
-#    background = "#181825AA"
-#    foreground = "#CDD6F4"
-#    timeout = 10
-
-#[urgency_normal]
-#    background = "#181825AA"
-#    foreground = "#CDD6F4"
-#    timeout = 10
-
-#[urgency_critical]
-#    background = "#181825AA"
-#    foreground = "#F38BA8"
-#    frame_color = "#F38BA8"
-#    timeout = -1
-#    format = "<b>%s</b>\n%b"
 [global]
 	frame_color = "#8aadf4"
 	separator_color= frame
