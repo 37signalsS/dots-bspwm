@@ -12,6 +12,8 @@ alias lg='lazygit'
 
 alias ze='zeditor'
 
+alias rm='trash'
+
 alias code='/bin/vscodium .'
 
 alias vpnon='sudo systemctl start tailscaled && sleep 3 && sudo tailscale up'
